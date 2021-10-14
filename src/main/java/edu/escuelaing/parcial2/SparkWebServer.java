@@ -17,8 +17,8 @@ import spark.Response;
 
 public class SparkWebServer {
     private static int flag= 1;
-    private static String url1="";
-    private static String url2="";
+    private static String url1="http://ec2-54-175-251-188.compute-1.amazonaws.com:35000/%s?value=%s"; // url de la maquina 
+    private static String url2="http://ec2-54-174-126-190.compute-1.amazonaws.com:35000/%s?value=%s"; // url de la maquina 
 
     public static void main(String... args){
         port(getPort());
